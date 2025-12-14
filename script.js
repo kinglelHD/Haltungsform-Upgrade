@@ -114,6 +114,7 @@ const main = document.getElementById('main')
 const pig_div = document.getElementById('pig-div')
 const cow_div = document.getElementById('cow-div')
 const chicken_div = document.getElementById('chicken-div')
+const upgrade_sound = document.getElementById('upgrade-sound')
 
 class Animal {
     constructor(data, animal_type) {
@@ -153,6 +154,9 @@ class Animal {
         this.upgrade_btn.innerText = 'Upgrade'
         this.upgrade_btn.onclick = () => {
             if (this.haltungsform < 5) {
+                const sound = new Audio('assets/upgrade.mp3')
+                sound.volume = .125
+                sound.play()
                 this.haltungsform ++
                 this.update()
             }
