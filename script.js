@@ -7,28 +7,28 @@ const PIG = [
         ["Futter", "Konventionelles Futter (Soja, Getreide)"]
     ],[
         // 2
-        ["Preis", ""],
+        ["Preis", "93,48ct/100g"],
         ["Platz pro Tier", "0,84m²"],
         ["Zugang zu Außenklima", "Kein Zugang"],
         ["Beschäftigung", "Mehr Beschäftigungsmaterial (Stroh, Picksteine, Raufutter)"],
         ["Futter", "Hochwertigere Futtermischung, teilweise mit Raufutter"]
     ],[
         //3
-        ["Preis", ""],
+        ["Preis", "150,52ct/100g"],
         ["Platz pro Tier", "1,3m²"],
         ["Zugang zu Außenklima", "Zugang zu Außenklimabereichen"],
         ["Beschäftigung", "Erweiterte Beschäftigungsmöglichkeiten (zusätzliche Wühlmaterialien, Picksteine)"],
         ["Futter", "Hochwertiges, gentechnikfreies Futter, oft regional"]
     ],[
         //4
-        ["Preis", ""],
+        ["Preis", "-"],
         ["Platz pro Tier", "1,5m², davon 0,5m² im Auslauf"],
         ["Zugang zu Außenklima", "Weide- oder Freilaufhaltung"],
         ["Beschäftigung", "Vielfältige Beschäftigungsmaterialien (Wühlmöglichkeiten, Scharren, Stroh, Raufutter)"],
         ["Futter", "Futtermittel ohne Gentechnik, mind. 60 % der Futtermittel aus dem eigenen Betrieb bzw. aus der Region"]
     ],[
         //5
-        ["Preis", ""],
+        ["Preis", "-"],
         ["Platz pro Tier", "1,5m² im Stall und 1,2m² Auslauffläche"],
         ["Zugang zu Außenklima", "Laufstallhaltung mit Auslauf oder Weide"],
         ["Beschäftigung", "Vielfältige Beschäftigungsmaterialien (Wühlmöglichkeiten, Scharren, Stroh, Raufutter)"],
@@ -37,35 +37,35 @@ const PIG = [
 ]
 const COW = [
     [ // Haltungsform 1
-        ["Preis", ""],
+        ["Preis", "53ct/100g"],
         ["Platz pro Tier", "2,2m²"],
         ["Zugang zu Außenklima", "Kein Zugang"],
         ["Beschäftigung", "Mindestanforderung (Stroh, Holz, einfache Materialien)"],
         ["Futter", "Konventionelles Futter (Soja, Getreide)"]
     ],[
         // 2
-        ["Preis", ""],
+        ["Preis", "103,07ct/100g"],
         ["Platz pro Tier", "3,0m²"],
         ["Zugang zu Außenklima", "Kein Zugang"],
         ["Beschäftigung", "Mehr Beschäftigungsmaterial (Stroh, Picksteine, Raufutter)"],
         ["Futter", "Hochwertigere Futtermischung, teilweise mit Raufutter"]
     ],[
         //3
-        ["Preis", ""],
+        ["Preis", "133,56ct/100g"],
         ["Platz pro Tier", "4,0m²"],
         ["Zugang zu Außenklima", "Zugang zu Außenklimabereichen"],
         ["Beschäftigung", "Erweiterte Beschäftigungsmöglichkeiten (zusätzliche Wühlmaterialien, Picksteine)"],
         ["Futter", "Hochwertiges, gentechnikfreies Futter, oft regional"]
     ],[
         //4
-        ["Preis", ""],
+        ["Preis", "-"],
         ["Platz pro Tier", "5m², aber mind. 1m²/100 kg"],
         ["Zugang zu Außenklima", "Weide- oder Freilaufhaltung"],
         ["Beschäftigung", "Vielfältige Beschäftigungsmaterialien (Wühlmöglichkeiten, Scharren, Stroh, Raufutter)"],
         ["Futter", "Futtermittel ohne Gentechnik, mind. 60 % der Futtermittel aus dem eigenen Betrieb bzw. aus der Region"]
     ],[
         //5
-        ["Preis", ""],
+        ["Preis", "-"],
         ["Platz pro Tier", "5m², aber mind. 1m²/100 kg"],
         ["Zugang zu Außenklima", "Laufstallhaltung mit Auslauf oder Weide"],
         ["Beschäftigung", "Vielfältige Beschäftigungsmaterialien (Wühlmöglichkeiten, Scharren, Stroh, Raufutter)"],
@@ -74,35 +74,35 @@ const COW = [
 ]
 const CHICKEN = [
     [ // Haltungsform 1
-        ["Preis", ""],
+        ["Preis", "174,27ct/100g"],
         ["Platz pro Tier", "39kg/m²"],
         ["Zugang zu Außenklima", "Kein Zugang"],
         ["Beschäftigung", "Mindestanforderung (Stroh, Holz, einfache Materialien)"],
         ["Futter", "Konventionelles Futter (Soja, Getreide)"]
     ],[
         // 2
-        ["Preis", ""],
+        ["Preis", "122ct/100g"],
         ["Platz pro Tier", "35kg/m²"],
         ["Zugang zu Außenklima", "Kein Zugang"],
         ["Beschäftigung", "Mehr Beschäftigungsmaterial (Stroh, Picksteine, Raufutter)"],
         ["Futter", "Hochwertigere Futtermischung, teilweise mit Raufutter"]
     ],[
         //3
-        ["Preis", ""],
+        ["Preis", "166,6ct/100g"],
         ["Platz pro Tier", "29kg/m²"],
         ["Zugang zu Außenklima", "Zugang zu Außenklimabereichen"],
         ["Beschäftigung", "Erweiterte Beschäftigungsmöglichkeiten (zusätzliche Wühlmaterialien, Picksteine)"],
         ["Futter", "Hochwertiges, gentechnikfreies Futter, oft regional"]
     ],[
         //4
-        ["Preis", ""],
+        ["Preis", "-"],
         ["Platz pro Tier", "25kg/m²"],
         ["Zugang zu Außenklima", "Weide- oder Freilaufhaltung"],
         ["Beschäftigung", "Vielfältige Beschäftigungsmaterialien (Wühlmöglichkeiten, Scharren, Stroh, Raufutter)"],
         ["Futter", "Futtermittel ohne Gentechnik, mind. 60 % der Futtermittel aus dem eigenen Betrieb bzw. aus der Region"]
     ],[
         //5
-        ["Preis", ""],
+        ["Preis", "-"],
         ["Platz pro Tier", "21kg/m²"],
         ["Zugang zu Außenklima", "Laufstallhaltung mit Auslauf oder Weide"],
         ["Beschäftigung", "Vielfältige Beschäftigungsmaterialien (Wühlmöglichkeiten, Scharren, Stroh, Raufutter)"],
@@ -155,7 +155,7 @@ class Animal {
         this.upgrade_btn.onclick = () => {
             if (this.haltungsform < 5) {
                 const sound = new Audio('assets/upgrade.mp3')
-                sound.volume = .125
+                sound.volume = .25
                 sound.play()
                 this.haltungsform ++
                 this.update()
