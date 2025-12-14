@@ -26,7 +26,8 @@ header {
     background-color: greenyellow;
     background-image: url(assets/wiese.png);
     background-size: cover;
-    height: 45vh;
+    max-height: 45vh;
+    min-height: 40rem;
     text-align: center;
     position: relative;
     border-bottom: .5rem solid darkgreen;
