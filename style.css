@@ -14,27 +14,35 @@
 }
 
 html {
-    background-color: greenyellow;
+    background-color: antiquewhite;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
 }
 
 header {
+    background-color: greenyellow;
     background-image: url(assets/wiese.png);
     background-size: cover;
     height: 45vh;
     text-align: center;
     position: relative;
+    border-bottom: .5rem solid darkgreen;
 }
 
 h1 {
     padding-top: 4rem;
-    color: greenyellow;
+    color: bisque;
     font-size: 4rem;
-    text-shadow: -.05em -.05em 0 darkgreen, .05em -.05em 0 darkgreen, -.05em .05em 0 darkgreen, .05em .05em 0 darkgreen;
+    text-shadow: -.05em -.05em 0 chocolate, .05em -.05em 0 chocolate, -.05em .05em 0 chocolate, .05em .05em 0 chocolate;
 }
 
 label {
-    color: darkgreen;
+    color: bisque;
     font-size: 1.2rem;
+    text-shadow: -.05em -.05em 0 chocolate, .05em -.05em 0 chocolate, -.05em .05em 0 chocolate, .05em .05em 0 chocolate;
 }
 
 a {
@@ -48,4 +56,30 @@ a {
     border: .4rem solid darkgreen;
     color: darkgreen;
     font-size: 1.2rem;
+}
+
+main {
+    padding: 4rem 8rem;
+}
+
+section {
+    padding: 1rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+footer {
+    background-color: darkgreen;
+    padding: 2rem 4rem;
+    text-align: center;
+    color: antiquewhite;
+
 }
