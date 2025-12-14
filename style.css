@@ -19,6 +19,7 @@ html {
 
 header {
     background-image: url(assets/wiese.png);
+    background-size: cover;
     height: 45vh;
     text-align: center;
     position: relative;
