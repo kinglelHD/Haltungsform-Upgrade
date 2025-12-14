@@ -186,9 +186,11 @@ class Animal {
 }
 
 const animals = [new Animal(PIG, "pig"), new Animal(COW, "cow"), new Animal(CHICKEN, "chicken")]
+let current_animal = "pig"
 select_pig()
 
 function select_pig() {
+    current_animal = "pig"
     pig_div.classList.add('active')
     cow_div.classList.remove('active')
     chicken_div.classList.remove('active')
@@ -197,6 +199,7 @@ function select_pig() {
     animals[2].div.style.display = 'none'
 }
 function select_cow() {
+    current_animal = "cow"
     pig_div.classList.remove('active')
     cow_div.classList.add('active')
     chicken_div.classList.remove('active')
@@ -205,6 +208,7 @@ function select_cow() {
     animals[2].div.style.display = 'none'
 }
 function select_chicken() {
+    current_animal = "chicken"
     pig_div.classList.remove('active')
     cow_div.classList.remove('active')
     chicken_div.classList.add('active')
@@ -234,5 +238,33 @@ chicken_div.addEventListener('keypress', e => {
     if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault()
         select_chicken()
+    }
+})
+
+
+let startX
+let endX
+window.addEventListener('touchstart', e => {
+    startX = e.changedTouches[0].screenX
+})
+window.addEventListener('touchend', e => {
+    endX = e.changedTouches[0].screenX
+
+    if((startX - endX) > 100) {
+        if (current_animal === "cow") {
+            select_chicken()
+        } else if (current_animal === "chicken") {
+            select_pig()
+        } else {
+            select_cow()
+        }
+    } else if ((endX - startX) > 100) {
+        if (current_animal === "cow") {
+            select_pig()
+        } else if (current_animal === "chicken") {
+            select_cow()
+        } else {
+            select_chicken()
+        }
     }
 })
